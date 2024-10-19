@@ -1,0 +1,55 @@
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.catering-hub-color {
+    color: #F5DD61;
+}
+.catering-hub-bg-color{
+    background-color: #F5DD61;
+}
+
+a.catering-hub-color:hover{
+    color: #847600;
+}
+button.catering-hub-bg-color:hover{
+    background-color: #847600;
+
+} 
+
+#cart {
+    position: fixed;
+    bottom: 3em;
+    right: 5em;
+    z-index: 100;
+}
+
+#cart:hover{
+    background-color: #0aadce!important;
+}
+
+div#filters button:hover, form#search button:hover{
+    background-color: #c2c4c5;
+}
+
+h6.tags {
+    cursor: pointer;
+}
+h6.tags:hover, button.tags:hover{
+    background-color: #e2e1e1!important;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand-img {
+        width: 13em; /* or whatever size you want */
+        height: auto;
+    }
+    
+    #cart {
+        bottom: 1em; 
+        right: 1em; 
+        transform: scale(0.8);
+    }
+}
