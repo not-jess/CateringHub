@@ -74,7 +74,7 @@
 
       <!-- FOOTER -->
       <div class="footer">
-        <p>Already have an account? <a href="login.html">Login</a></p>
+        <p>Already have an account? <a href="login">Login</a></p>
       </div>
       <!-- FOOTER END -->
     </div>

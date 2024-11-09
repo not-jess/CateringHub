@@ -1,44 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CateringHub</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="logo.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../assets/css/stylesheet.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-
-<body class="d-flex flex-column min-vh-100">
-    <header>
-        <nav class="navbar navbar-expand-sm bg-light border-bottom">
-            <div class="container-fluid p-3">
-                <a href="home.html" class="navbar-brand navbar-brand-img"><img src="../assets/images/CateringHub.png"
-                        class="img-fluid" /></a>
-                <button class="navbar-toggler catering-hub-color" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="bi bi-list" style="font-size:2em"></i>
-                </button>
-                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="home.html" class="nav-link h4 catering-hub-color fw-bold">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="orders.html" class="nav-link h4 catering-hub-color fw-bold">Orders</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="profile.html" class="nav-link h4 catering-hub-color fw-bold">Profile</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<?php require('partials/head.php'); ?>
+<?php require('partials/nav.php'); ?>
     </header>
     <main>
         <div class="container-fluid pt-3">
@@ -72,7 +33,7 @@
                 class="row row-cols-2 row-cols-md-3 px-1 px-md-5 py-2 py-md-3 g-2 g-md-5 d-flex justify-content-center align-items-center">
                 <div class="col">
                     <div class="card h-100">
-                        <a href="menudesc.html" class="text-decoration-none text-dark">
+                        <a href="menu-desc" class="text-decoration-none text-dark">
                             <img src="../assets/images/imgmenu1.jpg" class="card-img-top" alt="Kanjeng 1" />
                         </a>
                         <div class="card-body bg-light">
@@ -101,7 +62,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="menudesc.html" class="text-decoration-none text-dark">
+                        <a href="menu-desc" class="text-decoration-none text-dark">
                             <img src="../assets/images/imgmenu1.jpg" class="card-img-top" alt="Kanjeng 2" />
                         </a>
                         <div class="card-body bg-light">
@@ -130,7 +91,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="menudesc.html" class="text-decoration-none text-dark">
+                        <a href="menu-desc" class="text-decoration-none text-dark">
                             <img src="../assets/images/imgmenu1.jpg" class="card-img-top" alt="Kanjeng 3" />
                         </a>
                         <div class="card-body bg-light">
@@ -159,7 +120,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="menudesc.html" class="text-decoration-none text-dark">
+                        <a href="menu-desc" class="text-decoration-none text-dark">
                             <img src="../assets/images/imgmenu1.jpg" class="card-img-top" alt="Kanjeng 4" />
                         </a>
                         <div class="card-body bg-light">
@@ -185,7 +146,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="menudesc.html" class="text-decoration-none text-dark">
+                        <a href="menu-desc" class="text-decoration-none text-dark">
                             <img src="../assets/images/imgmenu1.jpg" class="card-img-top" alt="Kanjeng 5" />
                         </a>
                         <div class="card-body bg-light">
@@ -222,7 +183,7 @@
                 class="row row-cols-2 row-cols-md-3 px-1 px-md-5 py-2 py-md-3 g-2 g-md-5 d-flex justify-content-center align-items-center">
                 <div class="col">
                     <div class="card h-100">
-                        <a href="menudesc.html" class="text-decoration-none text-dark">
+                        <a href="menu-desc" class="text-decoration-none text-dark">
                             <img src="../assets/images/imgmenu2.jpg" class="card-img-top" alt="Ningrat 1" />
                         </a>
                         <div class="card-body bg-light">
@@ -248,7 +209,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="menudesc.html" class="text-decoration-none text-dark">
+                        <a href="menu-desc" class="text-decoration-none text-dark">
                             <img src="../assets/images/imgmenu2.jpg" class="card-img-top" alt="Ningrat 2" />
                         </a>
                         <div class="card-body bg-light">
@@ -285,7 +246,7 @@
                 class="row row-cols-2 row-cols-md-3 px-1 px-md-5 py-2 py-md-3 g-2 g-md-5 d-flex justify-content-center align-items-center">
                 <div class="col">
                     <div class="card h-100">
-                        <a href="menudesc.html" class="text-decoration-none text-dark">
+                        <a href="menu-desc" class="text-decoration-none text-dark">
                             <img src="../assets/images/imgmenu3.jpg" class="card-img-top" alt="Nasi Kuning Manado" />
                         </a>
                         <div class="card-body bg-light">
@@ -314,7 +275,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="menudesc.html" class="text-decoration-none text-dark">
+                        <a href="menu-desc" class="text-decoration-none text-dark">
                             <img src="../assets/images/imgmenu3.jpg" class="card-img-top" alt="Nasi Gudeg Yogya" />
                         </a>
                         <div class="card-body bg-light">
@@ -340,7 +301,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="menudesc.html" class="text-decoration-none text-dark">
+                        <a href="menu-desc" class="text-decoration-none text-dark">
                             <img src="../assets/images/imgmenu3.jpg" class="card-img-top" alt="Nasi Bali" />
                         </a>
                         <div class="card-body bg-light">
@@ -369,7 +330,7 @@
                 </div>
             </div>
         </div>
-        <a href="cart.html" class="text-decoration-none align-items-center">
+        <a href="cart" class="text-decoration-none align-items-center">
             <div id="cart"
                 class="py-1 px-4 bg-info border border-2 d-flex justify-content-center align-items-center rounded-circle">
                 <i class="bi bi-cart4 text-light" style="font-size:3.6em"></i>
@@ -379,7 +340,7 @@
         <div class="modal" id="myModal">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <form action="cart.html">
+                    <form action="cart">
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Add to Cart</h4>

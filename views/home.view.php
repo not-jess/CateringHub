@@ -1,44 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CateringHub</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="logo.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../assets/css/stylesheet.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-
-<body class="d-flex flex-column min-vh-100">
-    <header>
-        <nav class="navbar navbar-expand-sm bg-light border-bottom">
-            <div class="container-fluid p-3">
-                <a href="home.html" class="navbar-brand navbar-brand-img"><img src="../assets/images/CateringHub.png"
-                        class="img-fluid" /></a>
-                <button class="navbar-toggler catering-hub-color" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="bi bi-list" style="font-size:2em"></i>
-                </button>
-                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="home.html" class="nav-link h4 catering-hub-color fw-bold">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="orders.html" class="nav-link h4 catering-hub-color fw-bold">Orders</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="profile.html" class="nav-link h4 catering-hub-color fw-bold">Profile</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<?php require('partials/head.php'); ?>
+<?php require('partials/nav.php'); ?>
     </header>
     <main>
         <div class="container d-flex justify-content-center pt-2">
@@ -94,7 +55,7 @@
         <div class="container-fluid mt-2  overflow-hidden">
             <div class="row row-cols-2 row-cols-md-5 row-cols-xxl-6 px-1 px-md-5 py-2 py-md-3 g-2 g-md-5">
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest1.jpeg" class="card-img-top" alt="Medina Catering" />
                             <div class="card-body bg-light">
@@ -107,7 +68,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest2.jpg" class="card-img-top" alt="Gorry Gourmet" />
                             <div class="card-body bg-light">
@@ -120,7 +81,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest3.jpg" class="card-img-top " alt="Dapur Babah Elite" />
                             <div class="card-body bg-light">
@@ -133,7 +94,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest4.jpg" class="card-img-top" alt="Dapur Pangeran" />
                             <div class="card-body bg-light">
@@ -146,7 +107,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest5.jpg" class="card-img-top" alt="Mustafa Catering" />
                             <div class="card-body bg-light">
@@ -159,7 +120,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest6.jpeg" class="card-img-top" alt="Thyme Diner" />
                             <div class="card-body bg-light">
@@ -172,7 +133,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest1.jpeg" class="card-img-top" alt="Medina Catering" />
                             <div class="card-body bg-light">
@@ -185,7 +146,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest2.jpg" class="card-img-top" alt="Gorry Gourmet" />
                             <div class="card-body bg-light">
@@ -198,7 +159,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest3.jpg" class="card-img-top " alt="Dapur Babah Elite" />
                             <div class="card-body bg-light">
@@ -211,7 +172,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest4.jpg" class="card-img-top" alt="Dapur Pangeran" />
                             <div class="card-body bg-light">
@@ -224,7 +185,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest5.jpg" class="card-img-top" alt="Mustafa Catering" />
                             <div class="card-body bg-light">
@@ -237,7 +198,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest6.jpeg" class="card-img-top" alt="Thyme Diner" />
                             <div class="card-body bg-light">
@@ -250,7 +211,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest1.jpeg" class="card-img-top" alt="Medina Catering" />
                             <div class="card-body bg-light">
@@ -263,7 +224,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest2.jpg" class="card-img-top" alt="Gorry Gourmet" />
                             <div class="card-body bg-light">
@@ -276,7 +237,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="menu.html" class="text-decoration-none text-dark">
+                    <a href="menu" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="../assets/images/imgrest3.jpg" class="card-img-top " alt="Dapur Babah Elite" />
                             <div class="card-body bg-light">
@@ -297,7 +258,7 @@
                 <li class="page-item"><a class="page-link" href="#">Next</a></li>
             </ul>
         </div>
-        <a href="cart.html" class="text-decoration-none align-items-center">
+        <a href="cart" class="text-decoration-none align-items-center">
             <div id="cart"
                 class="py-1 px-4 bg-info border border-2 d-flex justify-content-center align-items-center rounded-circle">
                 <i class="bi bi-cart4 text-light" style="font-size:3.6em"></i>

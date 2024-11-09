@@ -1,44 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CateringHub</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="logo.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../assets/css/stylesheet.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-
-<body class="d-flex flex-column min-vh-100">
-    <header>
-        <nav class="navbar navbar-expand-sm bg-light border-bottom">
-            <div class="container-fluid p-3">
-                <a href="home.html" class="navbar-brand navbar-brand-img"><img src="../assets/images/CateringHub.png"
-                        class="img-fluid" /></a>
-                <button class="navbar-toggler catering-hub-color" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="bi bi-list" style="font-size:2em"></i>
-                </button>
-                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="home.html" class="nav-link h4 catering-hub-color fw-bold">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="orders.html" class="nav-link h4 catering-hub-color fw-bold">Orders</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="profile.html" class="nav-link h4 catering-hub-color fw-bold">Profile</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<?php require('partials/head.php'); ?>
+<?php require('partials/nav.php'); ?>
     </header>
     <main>
         <div class="container-fluid pt-3">
@@ -76,7 +37,7 @@
         <div class="modal" id="myModal">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <form action="cart.html">
+                    <form action="cart">
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Add to Cart</h4>

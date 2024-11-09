@@ -66,7 +66,7 @@
 
       <!-- FOOTER -->
       <div class="footer">
-        <p>Haven't account? <a href="register.html">Register now</a></p>
+        <p>Haven't account? <a href="register">Register now</a></p>
       </div>
       <!-- FOOTER END -->
     </div>
